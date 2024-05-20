@@ -6,6 +6,7 @@ import To from "../images/Todo.jpg"
 import log from "../images/Login.jpg"
 import pg from "../images/pg.jpeg"
 import nei from "../images/nei.jpeg"
+import quiz from "../images/quiz.png"
 export const Bio = {
   name: "Sonu Kumar",
   roles: [
@@ -410,6 +411,33 @@ export const projects = [
     category: "web app",
     github: "https://github.com/SaloniSonu/Hospital",
     webapp: "#",
+  },
+  {
+    id: 12,
+    title: "Quiz-App",
+    date: "Aug 2022 - Aug2022",
+    description:
+      "This Quiz app built with react js in which users can test theri general awareness to test themselves and to improve them.",
+    image:
+      quiz,
+    tags: ["React Js","Javascript", "HTML", "CSS",],
+    category: "web app",
+    github: "https://github.com/imsonugupta01/quiz-app",
+    webapp: "https://664bc9290b847d00089d826d--quiz05.netlify.app/",
+    // member: [
+    //   {
+    //     name: "Rishav Chanda",
+    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    //     github: "https://github.com/rishavchanda/",
+    //   },
+    //   {
+    //     name: "Upasana Chaudhuri",
+    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+    //     github: "https://github.com/upasana0710",
+    //   },
+    // ],
   },
   {
     id: 2,
