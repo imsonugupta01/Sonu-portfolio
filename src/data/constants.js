@@ -423,7 +423,7 @@ export const projects = [
     tags: ["React Js","Javascript", "HTML", "CSS",],
     category: "web app",
     github: "https://github.com/imsonugupta01/quiz-app",
-    webapp: "https://664bc9290b847d00089d826d--quiz05.netlify.app/",
+    webapp: "https://664bc9c716693500086b7cdf--quiz05.netlify.app/",
     // member: [
     //   {
     //     name: "Rishav Chanda",
