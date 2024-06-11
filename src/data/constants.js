@@ -358,7 +358,7 @@ export const projects = [
       "Kaggle"
     ],
     category: "web app",
-    github: "https://github.com/SaloniSonu/IPL_DashBoard",
+    github: "https://github.com/imsonugupta01/IPL_DashBoard",
     webapp: "https://ipl-dashboard-x1bf.onrender.com/#/",
   },
   {
@@ -409,7 +409,7 @@ export const projects = [
      
     ],
     category: "web app",
-    github: "https://github.com/SaloniSonu/Hospital",
+    github: "https://github.com/imsonugupta01/Hospital-Management",
     webapp: "#",
   },
   {
