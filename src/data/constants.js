@@ -5,8 +5,9 @@ import sssss from "../images/Screenshot 2024-05-09 034416.png"
 import To from "../images/Todo.jpg"
 import log from "../images/Login.jpg"
 import pg from "../images/pg.jpeg"
-import nei from "../images/nei.jpeg"
+
 import quiz from "../images/quiz.png"
+import mystore from "../images/mystore.png"
 export const Bio = {
   name: "Sonu Kumar",
   roles: [
@@ -229,7 +230,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: nei,
+    img: "https://ptu.ac.in/wp-content/themes/cynic/images/classic-logo.png",
     role: "T & P Coordinator ",
     company: "I.K.G. PTU",
     date: "June 2023 - Present",
@@ -338,32 +339,34 @@ export const education = [
 ];
 
 export const projects = [
-  
-  
+
+
   {
     id: 1,
-    title: "IPL Dashboard Application",
-    date: "Nov 2023 - Jan 2024",
+    title: "my_store",
+    date: "July 2024",
     description:
-      "Designed and developed this The IPL Dashboard Application is a comprehensive tool that provides detailed insights and information about Indian Premier League (IPL) matches spanning from 2008 to 2023. It offers a user-friendly interface where users can access a wide range of data, including match schedules, team performances, player statistics.",
+      "my_store is an innovative eCommerce application built to cater to diverse consumer needs with an intuitive user interface and advanced functionalities. It aims to revolutionize online shopping by offering a wide range of products, a user-friendly interface, and secure payment options.",
     image:
-      sss,
+      mystore,
     tags: [
-      "Springboot",
+      
       "React Js",
-      "MYSQL",
-      "Render",
+      "Firebase",
+      "Firestore",
+      "Google Console",
       "HTML",
       "CSS",
-      "Kaggle"
+      "Payment Gateway"
     ],
     category: "web app",
-    github: "https://github.com/imsonugupta01/IPL_DashBoard",
-    webapp: "https://ipl-dashboard-x1bf.onrender.com/#/",
+    github: "https://github.com/imsonugupta01/my_store",
+    webapp: "#",
   },
+  
   {
     id: 0,
-    title: "PlaceZen",
+    title: "Placezen",
     date: "Mar 2024 -April 2024",
     description:
       "PlaceZen is a dedicated web application tailored for university students to simplify the internship and job placement process. It offers functionalities like resume creation, job search, application tracking, interview scheduling, and career guidance, providing students with the tools they need to navigate their transition from academia to the professional world smoothly.",
@@ -390,6 +393,28 @@ export const projects = [
     // ],
   },
   {
+    id: 1,
+    title: "IPL Dashboard ",
+    date: "Nov 2023 - Jan 2024",
+    description:
+      "Designed and developed this The IPL Dashboard Application is a comprehensive tool that provides detailed insights and information about Indian Premier League (IPL) matches spanning from 2008 to 2023. It offers a user-friendly interface where users can access a wide range of data, including match schedules, team performances, player statistics.",
+    image:
+      sss,
+    tags: [
+      "Springboot",
+      "React Js",
+      "MYSQL",
+      "Render",
+      "HTML",
+      "CSS",
+      "Kaggle"
+    ],
+    category: "web app",
+    github: "https://github.com/imsonugupta01/IPL_DashBoard",
+    webapp: "https://ipl-dashboard-x1bf.onrender.com/#/",
+  },
+ 
+  {
     id: 9,
     title: "Hospital Management ",
     date: "Dec 2023 - Jan 2024",
@@ -412,6 +437,7 @@ export const projects = [
     github: "https://github.com/imsonugupta01/Hospital-Management",
     webapp: "#",
   },
+
   {
     id: 12,
     title: "Quiz-App",
@@ -438,6 +464,19 @@ export const projects = [
     //     github: "https://github.com/upasana0710",
     //   },
     // ],
+  },
+
+  {
+    id: 3,
+    title: "Weather App",
+    date: "June 2024",
+    description:
+      "Developed a dynamic weather application using Flutter and integrated with a third-party API to fetch and display 90% real-time weather information.",
+    image:"https://img.gadgethacks.com/img/28/94/63772499586858/0/your-iphones-weather-app-has-crazy-number-customization-options-you-probably-didnt-know-about.w1456.jpg",
+    tags: ["Flutter", "Dart", "API"],
+    category: "android app",
+    github: "https://github.com/imsonugupta01/weatherApp",
+    webapp: "#",
   },
   {
     id: 2,
