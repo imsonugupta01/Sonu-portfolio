@@ -361,7 +361,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/imsonugupta01/my_store",
-    webapp: "#",
+    webapp: "https://mystores01.netlify.app/",
   },
   
   {
@@ -411,7 +411,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/imsonugupta01/IPL_DashBoard",
-    webapp: "https://ipl-dashboard-x1bf.onrender.com/#/",
+    webapp: "http://sonu-ipl-proj-env.eba-bjpwdzgq.eu-north-1.elasticbeanstalk.com/",
   },
  
   {
