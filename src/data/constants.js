@@ -375,8 +375,8 @@ export const projects = [
       ss,
     tags: ["Springboot","RestAPIs","React Js",  "Java", "AWS Cloud", "Javascript","MYSQl","HTML","CSS"],
     category: "web app",
-    github: "https://github.com/SaloniSonu/Trial",
-    webapp: "#",
+    github: "https://github.com/imsonugupta01/Placezen",
+    webapp: "http://placezen-env.eba-r8wmrfum.eu-north-1.elasticbeanstalk.com/",
     // member: [
     //   {
     //     name: "Rishav Chanda",
