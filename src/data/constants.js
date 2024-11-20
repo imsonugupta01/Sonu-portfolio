@@ -376,7 +376,7 @@ export const projects = [
     tags: ["Springboot","RestAPIs","React Js",  "Java", "AWS Cloud", "Javascript","MYSQl","HTML","CSS"],
     category: "web app",
     github: "https://github.com/imsonugupta01/Placezen",
-    webapp: "http://placezen-env.eba-r8wmrfum.eu-north-1.elasticbeanstalk.com/",
+    webapp: "http://placezen.eu-north-1.elasticbeanstalk.com/",
     // member: [
     //   {
     //     name: "Rishav Chanda",
@@ -411,7 +411,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/imsonugupta01/IPL_DashBoard",
-    webapp: "http://sonu-ipl-proj-env.eba-bjpwdzgq.eu-north-1.elasticbeanstalk.com/",
+    webapp: "http://ipl-dashboard.eu-north-1.elasticbeanstalk.com/",
   },
  
   {
