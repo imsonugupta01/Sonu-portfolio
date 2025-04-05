@@ -12,31 +12,31 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          I have worked on a wide range of projects. From MERN Stack to Java Springboot. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton active value="all" style={{color:"white"}} onClick={() => setToggle('all')}>All</ToggleButton>
             :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton value="all" style={{color:"white"}} onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+          {toggle === 'node' ?
+            <ToggleButton active value="node" style={{color:"white"}} onClick={() => setToggle('node')}>NodeJs</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="node" style={{color:"white"}} onClick={() => setToggle('node')}>NodeJs</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          {toggle === 'springboot' ?
+            <ToggleButton active value="springboot" style={{color:"white"}} onClick={() => setToggle('springboot')}>Java + Springboot</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="springboot" style={{color:"white"}} onClick={() => setToggle('springboot')}>Java + Springboot</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+          {toggle === 'andriod' ?
+            <ToggleButton active value="andoroid" style={{color:"white"}} onClick={() => setToggle('android')}>Flutter</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="android" style={{color:"white"}} onClick={() => setToggle('android')}>Flutter</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
