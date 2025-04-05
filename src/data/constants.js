@@ -1,7 +1,7 @@
 import ss from "../images/Screenshot 2024-05-09 030254.png"
 import sss from "../images/Screenshot 2024-05-09 031239.png"
 import ssss from "../images/Screenshot 2024-05-09 033620.png"
-import sssss from "../images/Screenshot 2024-05-09 034416.png"
+// import sssss from "../images/Screenshot 2024-05-09 034416.png"
 // import To from "../images/Todo.jpg"
 import log from "../images/Login.jpg"
 // import pg from "../images/pg.jpeg"
