@@ -27,8 +27,9 @@ export const Bio = {
   github: "https://github.com/imsonugupta01/",
   resume:
     // "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-     "https://drive.google.com/file/d/1OavcBJjkWUJvmjE69KKfOBZBEHGxqQnR/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/imsonugupta01?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsQqMjcXEQrGD3jZL8%2BHv6g%3D%3D",
+    //  "https://drive.google.com/file/d/1OavcBJjkWUJvmjE69KKfOBZBEHGxqQnR/view?usp=drive_link",
+    "https://drive.google.com/file/d/11l0MG6C7MFziRyIlznTvIDabMIDVGVDV/view?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/imsonugupta01?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsQqMjcXEQrGD3jZL8%2BHv6g%3D%3D",
   twitter: "https://twitter.com/SonuKum97063017",
   insta: "https://www.instagram.com/imsonugupta_01/",
   facebook: "https://www.facebook.com/Sonu Gupta/",
@@ -194,7 +195,7 @@ export const experiences = [
   {
     id: 23,
     img: isourse,
-    role: "Backend Development Intern",
+    role: "Software Developer",
     company: "Isourse Technology Pvt. Limited",
     date: "March 2025 - Present",
     desc:"Currently working as a backend developer at ISourse Technologies on multiple client projects. My work involves writing optimized SQL queries within stored procedures, developing secure and scalable Node.js backends, and designing robust RESTful APIs. I utilize technologies such as Node.js, Express.js, MySQL, PostgreSQL, and Sequelize, with a strong focus on backend performance, data integrity, and security best practices. I also collaborate closely with frontend teams to ensure seamless API integration and efficient data flow",
@@ -212,7 +213,7 @@ export const experiences = [
   {
     id: 41,
     img: unnamed,
-    role: "Web Developent Intern",
+    role: "Web Developer Intern",
     company: "3W Business Pvt. Ltd.",
     date: "Jan 2025 - Feb 2025 ",
     desc: "Worked on Node.js and Redux, building scalable backend services and managing state efficiently for frontend applications.",
